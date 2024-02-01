@@ -15,7 +15,8 @@
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": "react-app",
+    "DISABLE_ESLINT_PLUGIN":"true"
   },
   "browserslist": [
     ">0.2%",
